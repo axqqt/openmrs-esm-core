@@ -41,7 +41,8 @@
     "i18next-parser": "^8.13.0"
   },
   "dependencies": {
-    "i18next": "21.10.0"
+    "@openmrs/esm-translations": "file:",
+    "i18next": "21.x"
   },
   "peerDependencies": {
     "i18next": "21.x"

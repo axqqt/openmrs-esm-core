@@ -45,6 +45,7 @@
     "@jsep-plugin/regex": "^1.0.3",
     "@jsep-plugin/template": "^1.0.4",
     "@jsep-plugin/ternary": "^1.1.3",
+    "@openmrs/esm-expression-evaluator": "file:",
     "jsep": "^1.3.9"
   },
   "devDependencies": {

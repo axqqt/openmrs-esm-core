@@ -1,0 +1,33 @@
+@use '@carbon/colors';
+@use '@carbon/layout';
+
+.helpMenuButton {
+  z-index: 7900;
+  background-color: colors.$white;
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+  bottom: layout.$spacing-05;
+  right: 0.25rem;
+  position: fixed;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  border: none;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.1),
+    0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: layout.$spacing-03;
+  color: colors.$black;
+
+  &:hover {
+    background-color: colors.$gray-20;
+    color: colors.$black;
+  }
+}
+
+.popover {
+  z-index: 7900;
+  bottom: layout.$spacing-07;
+  position: fixed;
+  right: 3rem;
+}
